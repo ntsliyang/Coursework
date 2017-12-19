@@ -1,0 +1,7 @@
+0.04 tsp_salt
+0.50 cup_milk
+0.10 cup_flour
+0.30 egg
+0.16 cup_water
+0.40 tsp_yeast
+0.12 tbsp_butter

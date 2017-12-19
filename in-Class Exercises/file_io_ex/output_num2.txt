@@ -1,0 +1,2 @@
+X=5 and Y=9
+The sum from file is 14

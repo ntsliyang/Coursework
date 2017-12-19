@@ -1,0 +1,9 @@
+0.05 tbsp_honey
+0.10 slices_bread
+0.08 tbsp_butter
+0.10 cup_water
+0.15 cup_flour
+0.60 cup_milk
+0.02 tsp_salt
+0.20 egg
+
