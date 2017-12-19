@@ -9,3 +9,5 @@ In a population of N people of which k are initially zombies, how many nights ar
 4. On any given night, a zombie (being dumb) may even choose to bite itself which has no effect.
 5. A human who is bitten during a particular night and thus becomes a zombie should not bite anyone on that same night. 
 They must wait until the next night to start biting people.
+
+See details in: http://bytes.usc.edu/cs103/coursework/zombies/
