@@ -1,0 +1,4 @@
+5
+[a](step4/data4.txt)
+key
+word

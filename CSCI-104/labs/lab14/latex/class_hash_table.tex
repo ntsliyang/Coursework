@@ -1,0 +1,89 @@
+\hypertarget{class_hash_table}{}\section{Hash\+Table Class Reference}
+\label{class_hash_table}\index{Hash\+Table@{Hash\+Table}}
+
+
+{\ttfamily \#include $<$hashtable.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_hash_table_a655be4719731689e0083bfd914e3a830}{Hash\+Table}} (int)
+\item 
+\mbox{\hyperlink{class_hash_table_a9ce5569bb945880cacb29aaba6f3e3f9}{$\sim$\+Hash\+Table}} ()
+\item 
+void \mbox{\hyperlink{class_hash_table_aeedf096a6ec56507c0ff33fd945793ea}{insert}} (std\+::string)
+\item 
+bool \mbox{\hyperlink{class_hash_table_aa53511e44d432ab84f2cb0c8cd9b4c5c}{find}} (std\+::string)
+\item 
+void \mbox{\hyperlink{class_hash_table_ab694b19c12f60a867a63b5e694762f01}{remove}} (std\+::string)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Hash Table for C\+S104 lab 13. Only stores strings. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_hash_table_a655be4719731689e0083bfd914e3a830}\label{class_hash_table_a655be4719731689e0083bfd914e3a830}} 
+\index{Hash\+Table@{Hash\+Table}!Hash\+Table@{Hash\+Table}}
+\index{Hash\+Table@{Hash\+Table}!Hash\+Table@{Hash\+Table}}
+\subsubsection{\texorpdfstring{Hash\+Table()}{HashTable()}}
+{\footnotesize\ttfamily Hash\+Table\+::\+Hash\+Table (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+Creates a hash table of the given input size. Creates the array and vectors used for the hash table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & The size of the hash table. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_hash_table_a9ce5569bb945880cacb29aaba6f3e3f9}\label{class_hash_table_a9ce5569bb945880cacb29aaba6f3e3f9}} 
+\index{Hash\+Table@{Hash\+Table}!````~Hash\+Table@{$\sim$\+Hash\+Table}}
+\index{````~Hash\+Table@{$\sim$\+Hash\+Table}!Hash\+Table@{Hash\+Table}}
+\subsubsection{\texorpdfstring{$\sim$\+Hash\+Table()}{~HashTable()}}
+{\footnotesize\ttfamily Hash\+Table\+::$\sim$\+Hash\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Deletes the vectors and array used for the hash table. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_hash_table_aa53511e44d432ab84f2cb0c8cd9b4c5c}\label{class_hash_table_aa53511e44d432ab84f2cb0c8cd9b4c5c}} 
+\index{Hash\+Table@{Hash\+Table}!find@{find}}
+\index{find@{find}!Hash\+Table@{Hash\+Table}}
+\subsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily bool Hash\+Table\+::find (\begin{DoxyParamCaption}\item[{std\+::string}]{ }\end{DoxyParamCaption})}
+
+Doxygen comments here! 
+\begin{DoxyParams}{Parameters}
+{\em name,find} & whether name is in the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean to indicate whether name is in the data Find should return true if the name exists in the hash table. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_hash_table_aeedf096a6ec56507c0ff33fd945793ea}\label{class_hash_table_aeedf096a6ec56507c0ff33fd945793ea}} 
+\index{Hash\+Table@{Hash\+Table}!insert@{insert}}
+\index{insert@{insert}!Hash\+Table@{Hash\+Table}}
+\subsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily void Hash\+Table\+::insert (\begin{DoxyParamCaption}\item[{std\+::string}]{ }\end{DoxyParamCaption})}
+
+Doxygen comments here! 
+\begin{DoxyParams}{Parameters}
+{\em string,insert} & name into the data Insert should do nothing if the name already exists in the hash table. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_hash_table_ab694b19c12f60a867a63b5e694762f01}\label{class_hash_table_ab694b19c12f60a867a63b5e694762f01}} 
+\index{Hash\+Table@{Hash\+Table}!remove@{remove}}
+\index{remove@{remove}!Hash\+Table@{Hash\+Table}}
+\subsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void Hash\+Table\+::remove (\begin{DoxyParamCaption}\item[{std\+::string}]{ }\end{DoxyParamCaption})}
+
+Doxygen comments here! 
+\begin{DoxyParams}{Parameters}
+{\em string,remove} & name from the data Remove should do nothing if the name does not exist in the hash table. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+hashtable.\+h\item 
+hashtable.\+cpp\end{DoxyCompactItemize}

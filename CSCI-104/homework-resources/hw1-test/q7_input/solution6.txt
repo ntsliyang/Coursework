@@ -1,0 +1,8 @@
+Duel ends in draw
+Protector killed
+Duel ends in draw
+Protector killed
+Duel ends in draw
+Invader killed
+Duel ends in draw
+Winner: invaders

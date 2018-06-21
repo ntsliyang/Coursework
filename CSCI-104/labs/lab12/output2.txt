@@ -1,0 +1,1 @@
+error: negative-gas-consumption cycle

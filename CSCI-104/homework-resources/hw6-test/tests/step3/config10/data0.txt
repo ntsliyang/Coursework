@@ -1,0 +1,2 @@
+[data1](step3/config10/data1.txt)
+[data2](step3/config10/data2.txt)

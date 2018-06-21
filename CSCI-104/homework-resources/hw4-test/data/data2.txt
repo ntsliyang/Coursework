@@ -1,0 +1,7 @@
+####Harvard University’s Introduction to Computer Science
+
+As of Fall-2014, the on-campus version of this course was the largest at Harvard. You’ll learn how to think algorithmically, solve programming problems efficiently, and become familiar with a number of languages including CSS, HTML, and PHP. The class is free, but you can add a HarvardX Verified Certificate for $90.
+
+Level:Beginner
+
+Duration: 180-Hours/9-Lessons 

@@ -1,0 +1,3 @@
+17 rightmiddle middle
+[a](step5/data/data15.txt)
+[b](step5/data/data13.txt)

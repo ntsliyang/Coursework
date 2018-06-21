@@ -1,0 +1,17 @@
+iteration:0
+data/page1.txt 0.25
+data/page3.txt 0.25
+data/page2.txt 0.25
+data/page4.txt 0.25
+
+iteration:1
+data/page1.txt 0.196875
+data/page3.txt 0.409375
+data/page2.txt 0.303125
+data/page4.txt 0.090625
+
+iteration:2
+data/page1.txt 0.14043
+data/page3.txt 0.488398
+data/page2.txt 0.314414
+data/page4.txt 0.0567578

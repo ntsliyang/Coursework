@@ -1,0 +1,4 @@
+step3/config12/data0.txt
+step3/config12/data1.txt
+step3/config12/data6.txt
+step3/config12/data9.txt

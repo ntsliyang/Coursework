@@ -1,0 +1,5 @@
+INDEX_FILE  = step5/index/index38_40.txt
+OUTPUT_FILE = ../student_output/config29.out
+QUERY_FILE = step5/query/query12.txt
+RESTART_PROBABILITY = 0.99
+STEP_NUMBER = 1000

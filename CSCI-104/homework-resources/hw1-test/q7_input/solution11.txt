@@ -1,0 +1,16 @@
+Invader killed
+Duel ends in draw
+Invader killed
+Duel ends in draw
+Invader killed
+Duel ends in draw
+Protector defected
+Duel ends in draw
+Protector defected
+Duel ends in draw
+Duel ends in draw
+Protector defected
+Duel ends in draw
+Protector killed
+Duel ends in draw
+Winner: protectors

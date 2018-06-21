@@ -1,0 +1,2 @@
+INDEX_FILE = step3/config12/index.txt
+OUTPUT_FILE = ../student_output/config12.out
