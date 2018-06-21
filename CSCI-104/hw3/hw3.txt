@@ -1,0 +1,8 @@
+CSCI 104 Homework 3
+Yang Li (yli546@usc.edu)
+
+Problem 2 and Problem 3 are in the attched pdf file.
+
+Problem 4 refers to stakstr.cpp and stackstr.o.
+
+Problem 5 refers to stringparser.cpp and stringparser.

@@ -1,0 +1,47 @@
+CSCI 104 Homework 1
+Yang Li (yli546@usc.edu)
+
+Problem 1 (Course Policies)
+(a) 4
+(b) 1,2,3,4
+(c) 2,3,4,5
+(d) none
+(e) 2,4,5
+
+Problem 2 (Git)
+(a) 3
+(b) 1,2
+(c) 1. git add hw1q2b.cpp
+    2. git log -p -3
+(d) git will open the text editor in the system default setting, 
+	and user needs to enter the message.
+(e) git clone git@github.com:usc-csci104-spring2018/hw-yli546.git
+
+Problem 4 (Recursion) 
+1. The output would be 
+1
+2
+3
+4
+5
+
+This program prints the exactly same array with the input. And the call tree 
+is shown in the "calltree.jpg" file attached in the hw1 folder.
+
+2. If the min is larger than max, funcB would fail to terminate. 
+When min is smaller than or equal to max, the program would always terminate 
+in the condition that min equals to max. However, the program would never terminate 
+when min is larger than max.
+
+3. The output would be: 
+a[min]
+a[min + 1]
+a[min + 2]
+...
+a[mid]
+...
+a[max]
+
+because the program basically would print out the array from the element of 
+the smallest index to the largest index. In other words, the program would 
+basically print the exactly same array.

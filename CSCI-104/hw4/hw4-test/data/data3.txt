@@ -1,0 +1,7 @@
+####Introduction to C++, MIT OpenCourseWare
+
+This four-week course provides a fast-paced introduction to C++ programming languages. You’ll learn the required background knowledge, including memory management, pointers, object-oriented programming, and how to find bugs when you inevitably use any of those incorrectly.
+
+Level: Beginner
+
+Duration: 16 Hours / 8 Lectures, 8 Labs

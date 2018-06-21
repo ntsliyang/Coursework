@@ -1,0 +1,8 @@
+PRINT data/1.txt
+PRINT data/2.txt
+PRINT data/3.txt
+AND word back
+OR computer
+AND something
+OR nothing 
+AND everything 

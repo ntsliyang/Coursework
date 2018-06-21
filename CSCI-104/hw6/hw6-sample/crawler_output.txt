@@ -1,0 +1,5 @@
+crawler_data/data1.txt
+crawler_data/data3.txt
+crawler_data/data4.txt
+crawler_data/data2.txt
+crawler_data/data5.txt

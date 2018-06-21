@@ -1,0 +1,13 @@
+CSCI 104 Homework 5
+Yang Li (yli546@usc.edu)
+
+1. Problem 1a and 1b are shown in 'functor.h', 'functor.cpp', and 'qsort.h'.
+   Problem 1c are in the attached 'CSCI 104 Homework 5.pdf'.
+
+2. Problem 2 is in the attached 'CSCI 104 Homework 5.pdf'.
+
+3. Problem 3 is in the attached 'CSCI 104 Homework 5.pdf'.
+
+4. Problem 4 is shown in 'LenMismatch.h' and 'LenMismatch.cpp'.
+
+5. Problem 5 is shown in 'Thanksgiving.cpp'.

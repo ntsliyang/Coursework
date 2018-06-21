@@ -1,0 +1,22 @@
+Test input1.in passed!
+
+Test input2.in passed!
+
+Test input3.in passed!
+
+Test input4.in passed!
+
+Test input5.in passed!
+
+Test input6.in passed!
+
+Test input7.in passed!
+
+Test input8.in passed!
+
+Test input9.in passed!
+
+Test input10.in passed!
+
+
+All Test Cases Passed!

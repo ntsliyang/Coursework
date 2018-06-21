@@ -1,0 +1,73 @@
+CSCI 104 Homework 2
+Yang Li (yli546@usc.edu)
+
+Problem 1 (More git questions) 
+Part (a):
+A copy of "README.md" will appear in the newly cloned SampleRepo directory 
+in the home directory. However, it is an unmodified new file.
+
+Part (b):
+A new empty Plain Text file named "fun_problem.txt" will appear in the 
+SampleRepo directory and "README.md" will have the text of "Markdown is easy".
+These two new files are both untracked.
+
+Part (c):
+"fun_problem.txt" and "README.md" are added so that they are new files staged 
+for commit.
+
+Part (d):
+The first line of command would add the commit comments for both files as "My
+opinion on markdown", so that both files become unmodified and are ready to be
+pushed into the GitHub. The rest of two lines add two lines of text respectively
+into two files, so that both files now change to be modified. 
+
+Part (e):
+The first line of command changes "README.md" into staged and prepare it for being pushed
+into the GitHub. The second line undoes the last command about "fun_problem.txt", which
+is adding a line of text "So far, so good". Therefore, "fun_problem.txt" is empty and 
+returns to be unmodified.
+
+Part (f):
+"README.md" file would include the text of "Fancy git move", so that a modified version 
+would stay in the home directory, while the original staged version are ready to be pushed 
+into the GitHub.
+
+Problem 3 (Abstract Data Types) 
+1. A list of strings that store all of the items on the menu. As this data type is used to
+store an ordered number of items, "set" cannot be used in this situation, because it does
+not explicitly provide you with the position of the item. With regard to map, this data 
+type does not require mapping between two different types, it is only required to store
+the information of a certain position and return them when it is necessary. Therefore, a
+list of strings that could store all of the items on the menu would be the most appropriate
+ADT in this case, because it could specify the value at any position.
+
+2. A set of strings that store the names of Star Wars movies. As we generally do not care
+about the position of a certain Star Wars movie in this case, we just need to have a complete
+set of movies. Therefore, two other ADTs, list and map, are not required in this case, because
+they all store the positions of values.
+
+3. A map of structs containing of ISBN number(int) and book names(string). In this case, 
+the data type must be capable of coupling between the ISBN number of book names. Under this
+requirement, only map ADT is capable of doing that because it associates values(string) with 
+keys(int).
+
+4. A map of structs containing of years(int) and names of the movies(string). In this case,
+the data type must be capable of coupling between the years and names of the movies. Under
+this requirement, only map ADT is capable of doing that because it associates values(string)
+with keys(int).
+
+5. A list of structs containing seasons(int) and another list of structs containing episode
+number(int) and requested episodes(string). In this case, I can first find the number of 
+seasons to locate the list containing episode number and requested episodes. Then, using the
+number of episodes is going to locate the title of requested episode. Sets as a type of ADT
+are not able to locate the position of certain item whereas maps are not suitable for this
+case because the list would suffice to locate items by integer indices.
+
+Problem 4 (Linked Lists, Recursion) 
+It will return a linked list of [5,4,3,2,1]. And by calling funcA with the parameter as the
+head node, funcA would finally return the last node, which has a value of 5. And by calling
+funcB with the parameter head node, the linked list would be rearranged in a reverse order,
+and the calltree is attached in the homework folder shown as "calltree.JPG".
+
+Problem 5 - Problem 7 are shown in the files attached to the hw2 folder. The compile methods
+for Problem 6 and Problem 7 are shown in the "README.md" file.

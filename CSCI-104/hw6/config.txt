@@ -1,0 +1,30 @@
+# index file
+# comments  something = something 
+    INDEX_FILE   =     index.txt # comments 
+# query file
+    QUERY_FILE  =   data/query.txt
+# the output file is given below 
+OUTPUT_FILE=  output.txt
+
+#comment
+    # another comment
+K1=V1
+K2 =V1
+K3= V1
+K4 = V1
+K5 = V1 #comment
+K6 = V1#comment
+        K7 = V1
+
+K1= # missing value
+K2 # missing equal sign and value
+=V1 # missing key
+K3=#V1 # missing value since it's commented out
+K4#=V1 # missing equal sign and value since both are commented out
+INDEX_FILE=V1 # this line is fine by itself, but combined with the next line, INDEX_FILE is provided more than once in the same config file
+INDEX_FILE=V2 # this line is fine by itself, but combined with the previous line, INDEX_FILE is provided more than once in the same config file
+# OUTPUT_FILE is not provided
+# if this is for search, some other parameters are also missing
+
+RESTART_PROBABILITY = 0.15
+STEP_NUMBER = 20

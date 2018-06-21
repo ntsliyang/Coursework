@@ -1,0 +1,3 @@
+# My configuration file
+INDEX_FILE  = crawler_data/index.txt
+OUTPUT_FILE = crawler_output.txt

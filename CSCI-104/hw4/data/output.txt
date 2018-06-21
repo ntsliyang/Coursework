@@ -1,0 +1,13 @@
+data/1.txt
+Hello world [hi]. Table chair desK, t-bone steak.
+data/2.txt
+Computer-Science# 104 is really, [thisis3]really5times,really#great?I don't_know![thiscouldbeone]
+data/3.txt
+randomwords, 3knife@9fe12fe, gotothetrain [this is something]
+0
+1
+data/2.txt
+1
+data/3.txt
+0
+0

@@ -1,0 +1,5 @@
+PRINT data/data1.txt
+PRINT data/data2.txt
+PRINT data/data3.txt
+PRINT data/data4.txt
+PRINT data/data5.txt

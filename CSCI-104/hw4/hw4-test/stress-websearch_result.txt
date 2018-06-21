@@ -1,0 +1,31 @@
+
+
+Test query1.out failed.
+
+
+
+Test query2.out failed.
+
+
+
+Test query3.out failed.
+
+
+
+Test query4.out failed.
+
+
+
+Test query5.out failed.
+
+
+
+Test query6.out failed.
+
+Failed 6 tests:
+query1.out
+query2.out
+query3.out
+query4.out
+query5.out
+query6.out
