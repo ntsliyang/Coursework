@@ -26,6 +26,7 @@ int main(int argc, char* argv[]) {
          y.add(x);
          x = tmp;
       }
+      cout << "x string: " << x.to_string() << endl;
       cout << y.to_string() << endl;
    }
 

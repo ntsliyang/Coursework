@@ -1,4 +1,4 @@
-CC = compile
+CC = g++
 ALL = bigint.o test0 test1 test2 copies fib 2pow fact
 
 all: $(ALL)
