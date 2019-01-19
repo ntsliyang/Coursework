@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LiYangHW1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y73-AL-eQt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yang Li" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wS-yC-FIF">
+                                <rect key="frame" x="147" y="78" width="81" height="28"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="mhl-TE-85Q">
+                                <rect key="frame" x="76.5" y="130" width="222" height="159"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="Jpg-Mi-sEu"/>
+                                    <constraint firstAttribute="width" constant="222" id="wFe-ye-oX0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhg-pZ-Rj7">
+                                <rect key="frame" x="37" y="318" width="300" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Fd6-qJ-dVa"/>
+                                    <constraint firstAttribute="height" constant="85" id="t1d-z3-X29"/>
+                                </constraints>
+                                <string key="text">I am a Sophomore majoring in Computer Science and minoring in Mathematics. I am excited to learn iOS development and swift programming in this course.</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69769376516342163" green="0.92914843559265137" blue="0.84680843353271484" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vhg-pZ-Rj7" firstAttribute="centerX" secondItem="y73-AL-eQt" secondAttribute="centerX" id="Jo8-gh-vO1"/>
+                            <constraint firstItem="mhl-TE-85Q" firstAttribute="centerX" secondItem="y73-AL-eQt" secondAttribute="centerX" id="Wf3-q5-9xA"/>
+                            <constraint firstItem="Vhg-pZ-Rj7" firstAttribute="top" secondItem="mhl-TE-85Q" secondAttribute="bottom" constant="29" id="cEN-Yx-j1b"/>
+                            <constraint firstItem="mhl-TE-85Q" firstAttribute="top" secondItem="7wS-yC-FIF" secondAttribute="bottom" constant="24" id="cdg-c1-iyp"/>
+                            <constraint firstItem="7wS-yC-FIF" firstAttribute="centerX" secondItem="y73-AL-eQt" secondAttribute="centerX" id="h1q-fd-zQg"/>
+                            <constraint firstItem="7wS-yC-FIF" firstAttribute="top" secondItem="Pds-by-zvz" secondAttribute="top" constant="58" id="zNb-pX-p6K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Pds-by-zvz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image" width="90" height="90"/>
+    </resources>
+</document>
