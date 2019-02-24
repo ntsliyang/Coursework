@@ -8,7 +8,7 @@
 #    (use tab and space to navigate the weird dialogs)
 #    or just don't use .mid files
 
-CXX = compile
+CXX = g++
 # if needed, install from http://bits.usc.edu/cs103/compile/ or use g++ or clang++
 
 MOCQT4 = moc-qt4

@@ -47,7 +47,6 @@
 		18BBBF1221EE8B160099F9A7 /* LiYangHW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiYangHW1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BBBF1621EE8B160099F9A7 /* LiYangHW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiYangHW1UITests.swift; sourceTree = "<group>"; };
 		18BBBF1821EE8B160099F9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18BBBF2521F02B770099F9A7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../../../../../Downloads/MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +100,6 @@
 				18BBBEF621EE8B150099F9A7 /* AppDelegate.swift */,
 				18BBBEF821EE8B150099F9A7 /* ViewController.swift */,
 				18BBBEFA21EE8B150099F9A7 /* Main.storyboard */,
-				18BBBF2521F02B770099F9A7 /* MyPlayground.playground */,
 				18BBBEFD21EE8B150099F9A7 /* Assets.xcassets */,
 				18BBBEFF21EE8B150099F9A7 /* LaunchScreen.storyboard */,
 				18BBBF0221EE8B150099F9A7 /* Info.plist */,

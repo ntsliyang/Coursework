@@ -41,7 +41,9 @@ def svm_loss_naive(W, X, y, reg):
       # we add loss += max(0, margin)
       if margin > 0:
         loss += margin
-        # reference from: https://cs231n.github.io/optimization-1/
+        # reference from: https://cs231n.github.io/optimization-1/#analytic
+        
+        # sum over all training examples 
         dW[:,y[i]] -= X[i,:].T
         dW[:,j] += X[i,:].T
     
